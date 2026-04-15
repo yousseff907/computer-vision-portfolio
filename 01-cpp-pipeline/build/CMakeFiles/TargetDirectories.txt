@@ -1,3 +1,0 @@
-/home/yitani/Desktop/git/computer-vision-portfolio/01-cpp-pipeline/build/CMakeFiles/cv_pipeline.dir
-/home/yitani/Desktop/git/computer-vision-portfolio/01-cpp-pipeline/build/CMakeFiles/edit_cache.dir
-/home/yitani/Desktop/git/computer-vision-portfolio/01-cpp-pipeline/build/CMakeFiles/rebuild_cache.dir
