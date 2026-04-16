@@ -27,5 +27,11 @@ int main(int argc, char **argv)
 	std::cout << "Creating GrayScale Image..." << std::endl;
 	cv::imwrite("../GrayScale.jpg", gray);
 	std::cout << "Done" << std::endl;
+
+	cv::Mat blurred;
+	std::cout << "Blurring image..." << std::endl;
+	cv::GaussianBlur(gray, blurred, cv::Size(15,15), 0);
+	cv::imwrite("../blurred.jpg", gray);
+	std::cout << "Done" << std::endl;
 	return (0);
 }
