@@ -33,5 +33,8 @@ int main(int argc, char **argv)
 	cv::GaussianBlur(gray, blurred, cv::Size(15,15), 0);
 	cv::imwrite("../blurred.jpg", gray);
 	std::cout << "Done" << std::endl;
+
+	// cv::Sobel()
+	// cv::Canny()
 	return (0);
 }
